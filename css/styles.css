@@ -27,7 +27,7 @@ table, th, td {
 
 @media screen and (max-width: 800px) {
 	body {
-	background-color: #9c9c9c;
+	background-color: #C2C2C2;
 	}
 	.box {
 		display: flex;
