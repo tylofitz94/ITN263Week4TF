@@ -1,118 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    	<meta charset="UTF-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<title>Eagles</title>
-    	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagles</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
     <h1> Philadelphia Eagles</h1>
     <div class="box">
         <img src="images/eagles.png" alt="logo" title="logo">
         <h3>Schedule</h3>
-        <table style="width:50%">
-            <tr> 
-                <th>Opponent</th>
-                <th>Result</th>
-                <th>Score</th>
-            </tr>
-            <tr>
-                <td>Green Bay</td>
-                <td>Win</td>
-                <td>34-29</td>
-            </tr>
-            <tr>
-                <td>Atlanta</td>
-                <td>Loss</td>
-                <td>22-21</td>
-            </tr>
-            <tr>
-                <td>New Orleans</td>
-                <td>Win</td>
-                <td>15-12</td>
-            </tr>
-            <tr>
-                <td>Tampa Bay</td>
-                <td>Loss</td>
-                <td>33-16</td>
-            </tr>
-            <tr>
-                <td>Bye Week</td>
-                <td>Bye</td>
-                <td>Bye</td>
-            </tr>
-            <tr>
-                <td>Cleveland</td>
-                <td>Win</td>
-                <td>20-16</td>
-            </tr>
-            <tr>
-                <td>New York</td>
-                <td>Win</td>
-                <td>28-3</td>
-            </tr>
-            <tr>
-                <td>Cincinnati</td>
-                <td>Win</td>
-                <td>37-17</td>
-            </tr>
-            <tr>
-                <td>Jacksonville</td>
-                <td>Win</td>
-                <td>28-23</td>
-            </tr>
-            <tr>
-                <td>Dallas</td>
-                <td>Win</td>
-                <td>34-6</td>
-            </tr>
-            <tr>
-                <td>Washington</td>
-                <td>Win</td>
-                <td>26-18</td>
-            </tr>
-            <tr>
-                <td>Los Angeles</td>
-                <td>Win</td>
-                <td>37-20</td>
-            </tr>
-            <tr>
-                <td>Baltimore</td>
-                <td>Win</td>
-                <td>24-19</td>
-            </tr>
-            <tr>
-                <td>Carolina</td>
-                <td>Win</td>
-                <td>22-16</td>
-            </tr>
-            <tr>
-                <td>Pittsburgh</td>
-                <td>Win</td>
-                <td>27-13</td>
-            </tr>
-            <tr>
-                <td>Washington</td>
-                <td>Loss</td>
-                <td>36-33</td>
-            </tr>
-            <tr>
-                <td>Dallas</td>
-                <td>Win</td>
-                <td>41-7</td>
-            </tr>
-            <tr>
-                <td>New York</td>
-                <td>Win</td>
-                <td>20-13</td>
-            </tr>
+        <table class="schedule-body">
+            <thead>
+                <tr class="table-header">
+                    <th>Opponent</th>
+                    <th>Result</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="schedule-body">
+                <!-- your schedule should populate here so you only need to update the json file -->
+            </tbody>
+        </table>
+    </div>
+    <!-- https://www.w3schools.com/html/html_tables.asp -->
 
-        </table>    
-        <!-- https://www.w3schools.com/html/html_tables.asp -->
-
-
+    <script type="text/javascript" src="/js/displaySchedule.js"></script>
 </body>
+
 </html>
